@@ -3,7 +3,7 @@ home: true
 heroImage: favicon.ico
 heroAlt: Logo image
 heroText: UPUPGOOOO
-tagline: upupgoooo的日常学习笔记
+tagline: 日常学习笔记
 features:
   - title: 热爱学习
     details: 有很多学习计划，虽然不知道什么时候会完成🙃🙃🙃。
