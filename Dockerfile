@@ -1,8 +1,9 @@
 FROM node:alpine
 
-COPY ["package.json", "/root/qianps-blog/"]
+COPY ["package.json", "index.js", "/root/qianps-blog/"]
 WORKDIR /root/qianps-blog
 RUN yarn install
+RUN yarn run docs:build
 
-ENTRYPOINT yarn run docs:dev
+ENTRYPOINT node index.js
 EXPOSE 8080
